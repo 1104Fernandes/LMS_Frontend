@@ -178,13 +178,6 @@ export const SelfPage = ({ match }: RouteComponentProps<TParams>) => {
               )}
             </Button>
           </Form>
-          <ReactPlayer
-            height=""
-            width=""
-            className="borderPlayer"
-            controls={true}
-            url={`https://youtu.be/${youtubeURL}`}
-          />
         </Col>
       </Row>
     </Container>
