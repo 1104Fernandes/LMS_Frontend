@@ -1,0 +1,1 @@
+export type Response<T> = {status: "ok", data: T};

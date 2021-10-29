@@ -1,0 +1,124 @@
+    .bg-muster {
+        position: absolute;
+        opacity: 0.1;
+        height: 95rem;
+        background-color: rgb(255, 255, 255);
+        background-image: radial-gradient(rgb(0, 0, 0) 9px, transparent 10px), repeating-radial-gradient(rgb(0, 0, 0) 0, rgb(0, 0, 0) 4px, transparent 5px, transparent 20px, rgb(0, 0, 0) 21px, rgb(0, 0, 0) 25px, transparent 26px, transparent 50px);
+        background-size: 30px 30px, 90px 90px;
+        background-position: 0 0;
+    }
+    
+    .bg-muster-login {
+        position: absolute;
+        opacity: 0.1;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        background-image: radial-gradient(rgb(0, 0, 0) 9px, transparent 10px), repeating-radial-gradient(rgb(0, 0, 0) 0, rgb(0, 0, 0) 4px, transparent 5px, transparent 20px, rgb(0, 0, 0) 21px, rgb(0, 0, 0) 25px, transparent 26px, transparent 50px);
+        background-size: 30px 30px, 90px 90px;
+        background-position: 0 0;
+    }
+    
+    .registerBox {
+        margin-top: 2rem;
+        /* background-color: rgba(0, 3, 170, 0.6); */
+        background-color: rgba(0, 21, 59, 0.6);
+        padding: 20px 40px;
+        border-radius: 45px/35px;
+        color: #fff;
+        font-weight: 600;
+        /* box-shadow: 0px 0px 2rem 1rem rgb(79, 0, 170); */
+        /* box-shadow: 7px -8px 11px -5px rgb(rgb(0, 0, 0)); */
+        box-shadow: 0px 0px 1rem 1rem rgb(126, 126, 126);
+    }
+    
+    .loginBox {
+        margin-top: 10rem;
+        /* background-color: rgba(0, 3, 170, 0.6); */
+        background-color: rgba(0, 21, 59, 0.6);
+        padding: 20px 40px;
+        border-radius: 45px/35px;
+        color: #fff;
+        font-weight: 600;
+        /* box-shadow: 0px 0px 2rem 1rem rgb(79, 0, 170); */
+        /* box-shadow: 7px -8px 11px -5px rgb(rgb(0, 0, 0)); */
+        box-shadow: 0px 0px 1rem 1rem rgb(126, 126, 126);
+    }
+    
+    .genderRadioBox {
+        display: flex;
+    }
+    
+    .genderRadios {
+        color: white;
+        background-color: rgb(135, 138, 182);
+        border-color: rgb(79, 0, 170);
+    }
+    
+    .genderRadios:hover {
+        color: white;
+        background-color: rgb(131, 96, 172);
+        border-color: rgb(117, 72, 168);
+    }
+    
+    .genderRadios:not(:disabled):not(.disabled).active,
+    .genderRadios:not(:disabled):not(.disabled):active,
+    .show>.genderRadios.dropdown-toggle {
+        color: #fff;
+        background-color: rgb(131, 96, 172);
+        border-color: rgb(79, 0, 170);
+        box-shadow: 0 0 0 0.1rem rgb(247, 247, 247)
+    }
+    
+    .login_input {
+        border-radius: 2rem;
+        border: 1px solid #17a2b8;
+    }
+    
+    .range-slider__wrap {
+        position: relative;
+        display: inline-block;
+        width: 20rem;
+    }
+    
+    .rangeLabelText {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    #dataprivacy {
+        font-size: 1rem;
+    }
+    
+    .dsvgoText>h1,
+    h2 {
+        text-align: center;
+    }
+    
+    .dsvgoText>h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    .dsvgoButton {
+        box-shadow: 0px 0px 0px 0px #3dc21b;
+        background: linear-gradient(to bottom, #5c37ab 5%, #5c37ab 100%);
+        background-color: #5c37ab;
+        border-radius: 28px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 7px 25px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #5c37ab;
+    }
+    
+    .ReactModal__Overlay {
+        z-index: 1000;
+    }
+    
+    .requiredFields {
+        font-size: 0.75rem;
+    }

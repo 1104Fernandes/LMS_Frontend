@@ -1,0 +1,24 @@
+{
+    "short_name": "security awareness",
+    "name": "Security-Awareness training Platform",
+    "icons": [{
+            "src": "Hacking1.png",
+            "sizes": "1920x800",
+            "type": "image/png"
+        },
+        {
+            "src": "learning.jpg",
+            "type": "image/jpg",
+            "sizes": "5472x3648"
+        },
+        {
+            "src": "study.jpg",
+            "type": "image/jpg",
+            "sizes": "4600x3067"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

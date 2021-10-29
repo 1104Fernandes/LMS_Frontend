@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    /* font-family: Menlo, Monaco, Consolas, "Courier New", monospace;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    padding-top: 3.5rem;
+}
+
+.custom-jumbotron {
+    background-color: black;
+    min-width: 100vw;
+}
+
+.custom_p_dark {
+    text-align: left;
+    font-size: 1.313rem;
+    padding-top: 2.2rem;
+    color: white;
+}
+
+.custom_h_dark {
+    color: white;
+    font-size: 2.25rem;
+    padding-top: 1.2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+    margin-right: 1.2rem;
+}
+
+.custom_p_white {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 2.2rem;
+    margin-left: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+.custom_h_white {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.2;
+    color: rgb(0, 0, 0);
+}
+
+.custom_div {
+    background-color: #fff5eb;
+    box-shadow: 0rem 0.7rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 2.2rem;
+    margin-top: 2.2rem;
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+.custom_col {
+    max-width: 100%;
+    align-self: flex-end;
+}
+
+.titel_col {
+    min-height: 38vw;
+}
+
+.title_box {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.title_box_h1 {
+    color: white;
+    font-size: 3.75rem;
+    line-height: 1.4;
+}
+
+.title_box_p {
+    color: white;
+    font-size: 1.875rem;
+    line-height: 1.875;
+}
+
+.intention_box {
+    background-color: #ffffff;
+    border-radius: 120px 60px 120px;
+}
+
+.intention_box_h3 {
+    color: #bc3434;
+    text-align: center;
+    line-height: 1.875;
+    padding: 1rem;
+}
+
+.intention_box_p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.accordion_card_header {
+    background-color: lightslategrey;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.createButton {
+    background-color: #6499a4;
+    border-color: #6499a4;
+    color: white;
+}
+
+.editButton {
+    background-color: #dee6de;
+}
+
+.editButton:hover {
+    background-color: #bfdbbf;
+    border-color: #bfdbbf;
+}
+
+.deleteButton {
+    background-color: #e6cbcb;
+}
+
+.deleteButton:hover {
+    background-color: #e4a3a3;
+    border-color: #e6cbcb;
+}
+
+.listButton {
+    background-color: #cbd6e6;
+    border-color: #cbd6e6;
+}
+
+.listButton:hover {
+    background-color: #a6bee4;
+    border-color: #a6bee4;
+}
+
+.rounded-upperleft {
+    border-radius: 0.5rem 0px 0px 0px;
+}
+
+.rounded-upperright {
+    border-radius: 0rem 0.5rem 0px 0px;
+}
+
+.rounded-top {
+    border-radius: 0.5rem 0.5rem 0px 0px;
+}
+
+.testForm {
+    text-align: center;
+    color: white;
+    /* background-color: #005B8B; */
+    background-color: #a2b4b8;
+    padding: 1rem;
+    /* border: #000000 1px solid; */
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+.lableform {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.borderPlayer :only-child {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.4rem;
+    border-color: #000000;
+}
+
+
+/* 82em = 1312px */
+
+@media all and (max-width: 82em) {
+    .custom-jumbotron {
+        background-color: rgb(0, 0, 0);
+        min-width: 100%;
+        min-height: 51em;
+    }
+    .custom_col {
+        max-width: 100%;
+    }
+    .titel_col {
+        flex-direction: column;
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .Card_row {
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .title_box {
+        width: 100%;
+        margin-top: 20rem;
+    }
+    .intention_box {
+        background-color: #ffffff;
+        border-radius: 0px;
+        min-width: 100%;
+        margin-top: 0.5rem;
+    }
+    .risk_col {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 45%;
+        max-width: 100%;
+    }
+}
+
+.nonlink:hover {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+
+/* 75em = 1200px */
+
+@media all and (max-width: 75em) {
+    .custom-jumbotron {
+        background-color: rgb(0, 0, 0);
+        min-width: 100%;
+        min-height: 53em;
+    }
+    .custom_col {
+        max-width: 100%;
+    }
+    .titel_col {
+        flex-direction: column;
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .Card_row {
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .title_box {
+        width: 100%;
+        margin-top: 20rem;
+    }
+    .intention_box {
+        background-color: #ffffff;
+        border-radius: 0px;
+        min-width: 100%;
+        margin-top: 0.5rem;
+    }
+    .risk_col {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 50%;
+        max-width: 100%;
+    }
+}
+
+
+/* 62em = 992px */
+
+@media all and (max-width: 62em) {
+    .custom_col {
+        max-width: 100%;
+    }
+    .titel_col {
+        flex-direction: column;
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .Card_row {
+        flex-direction: column;
+        row-gap: 1rem;
+        align-content: center;
+    }
+    .custom-jumbotron {
+        background-color: black;
+        min-width: 100vw;
+        min-height: 58em;
+    }
+    .title_box {
+        margin-top: 15rem;
+    }
+    .intention_box {
+        background-color: #ffffff;
+        margin-top: 2rem;
+    }
+}
