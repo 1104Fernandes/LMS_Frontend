@@ -46,7 +46,7 @@ export const LearningPage = ({ match }: RouteComponentProps<TParams>) => {
     <Container>
       <Row className="flex-column justify-content-md-start">
         <Col id="chatBot" className="chatBot" md="7">
-          <Image src="/MindMapCyber.png" alt="Mindmap" fluid />
+          <Image src="/Skimming.png" alt="Mindmap" fluid />
         </Col>
         <Col>
           <Button onClick={() => handleButton()}>zum Abschlusstest</Button>
